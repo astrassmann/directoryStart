@@ -16,15 +16,12 @@
 
       <h2>Suggest something fun!</h2>
 
-      <form>
-      Name:<br>
-      <input type="text" name="name" value="your name"><br>
-      E-mail:<br>
-      <input type="text" name="mail" value="your e-mail"><br>
-      Suggestion:<br>
-      <input type="text" name="suggestion" value="your suggestion" size="50"><br><br>
-      <input type="submit" value="Send">
-      </form>
+      <form action="//formspree.io/your@email.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+  </form>
 
     </div>
 
